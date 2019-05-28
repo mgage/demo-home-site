@@ -1,32 +1,33 @@
-# Site settings
-baseurl = "http://example.org/"
+baseURL = "https://demo.webwork.rochester.edu"
 languageCode = "en-us"
-title = "Hugrid - Grid Theme For Hugo"
-theme = "hugrid"
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-XXXXXXXX-Y"
+title = "WeBWorK On-line Mathematics Homework Demo Site"
+theme = "ananke"
 
-contentdir = "content"
-datadir = "data"
-layoutdir = "layouts"
-publishdir = "public"
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [params]
-    # Meta
-    title = "Hugrid - a simple grid theme for Hugo"
-    subtitle = "A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on."
-    author = "Pavel Kanyshev"
-    description = "Hugrid - grid theme for Hugo with an expanding image preview."
-    keywords = "Hugo, Hugo theme, grid theme, portfolio, bookmarks, collection, contacts"
-
-    # Body background color
-    bodybgcolor = "#f9f9f9"
-
-    # Preview container button text
-    buttontext = "Get the theme"
-
-    # Footer text
-    footertext = "Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [me](https://github.com/aerohub)"
-
-    # add extra-css
-    # custom_css = ['css/extra1.css', 'css/extra2.css']
+  favicon = ""
+  description = "Ask the questions you should not just the questions you can"
+  facebook = ""
+  twitter = ""
+  instagram = ""
+  youtube = ""
+  github = "https://github.com/openwebwork"
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-light-green"
+  featured_image = ""
+  recent_posts_number = 2
+  mainSections = ["Demos"]
