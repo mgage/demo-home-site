@@ -1,5 +1,5 @@
 ---
-title: "WW practice"
+title: "WW hands-on"
 date: 2019-05-28T11:35:33-04:00
 draft: false 
 description: "Try a webwork course for yourself."

@@ -1,8 +1,9 @@
 ---
-title: "Multivariable calculus"
-date: 2019-05-28T19:08:27-04:00
+title: "Multivariable_calculus"
+date: 2019-05-29T12:56:23-04:00
 draft: false
 ---
+
 WeBWorK homework sets for multivariable calculus typically taught in the second year.
 
 (click title for more)
