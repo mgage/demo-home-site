@@ -1,4 +1,4 @@
-baseURL = "https://demo.webwork.rochester.edu"
+baseURL = "https://demo.webwork.rochester.edu/public"
 languageCode = "en-us"
 title = "WeBWorK Online Math Homework Demo Site"
 theme = "ananke"

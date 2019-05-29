@@ -1,5 +1,5 @@
 ---
-title: "First semester calculus"
+title: "First year calculus"
 date: 2019-05-28T19:07:54-04:00
 draft: false
 ---

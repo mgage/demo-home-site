@@ -1,5 +1,5 @@
 ---
-title: "Moodle"
+title: "WW Moodle"
 date: 2019-05-28T11:34:35-04:00
 featured_image: ''
 draft: false
