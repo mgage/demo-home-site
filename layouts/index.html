@@ -11,46 +11,27 @@
   {{ if ge $section_count 1 }}
     {{/* Derive the section name  */}}
     {{ $section_name := index (.Site.Params.mainSections) 0 }}
-  <style>
-li.mainblocks {
-  height: 200px;
-  width: 200px;
-  background-color: orange;
-  float:left;
-  padding:16px;
-}
-li.mainblocks a {
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  font-size:200%;
-  line-height:200px
-  padding:16px
-}
-li.mainblocks a:hover {
-  background-color: #111111;
-}
-ul.mymenu {margin-left:100px margin-right:100px}
-.pa3 {clear:left}
-</style>  
-<div >
+
+
 {{ if .Site.Menus.main }}     
-	<ul id="mymenu" class="mymenu">
+	<div class="pa3 pa4-ns">
+	<ul class="list">
 					{{ range $.Site.Menus.main }}
-					<li class="mainblocks">
-						<a href="https://demo.webwork.rochester.edu"  >
+					    <li class="fl h3 bg-light-green ma1-ns ">
+						<a class="link dim black b f4 f8-ns dib mr3 mv3" href={{.URL}}  >
 							{{.Title}}
-					</li>
+                        </li>
 					{{ end }}
-	</ul>
+    </ul>
+	</div>
 {{ end }}
-</div>
+
 <div>
     <div class="pa3 pa4-ns w-100 w-70-ns center">
       {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
        {{ with .Site.GetPage "section" $section_name }}
           <h1 class="flex-none">
-            {{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}
+            {{ $.Param "recent_copy" | default .Title }}
           </h1>
         {{ end }}
 
