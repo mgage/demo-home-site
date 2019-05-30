@@ -1,8 +1,14 @@
 ---
-title: "Embedded_questions"
+title: "Embedded questions"
 date: 2019-05-30T13:54:15-04:00
-draft: true
+draft: false
 ---
+
+## Initial remarks
+
+These are 'live' webwork problems selected from  homework for the standard second semester calculus course (MTH162) which reviews the fundamental theorem of calculus and then begins with integration techniques. I use this html page in the first day lecture to illustrate the topics that we will cover. 
+
+<!--more-->
 
 <script type="text/javascript"
    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_CHTML">
