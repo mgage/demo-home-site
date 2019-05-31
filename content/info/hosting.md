@@ -6,6 +6,9 @@ draft: false
 
 Many institutions host their own sites. It's becoming increasingly easy to install WeBWorK and it has always been relatively low maintenance.
 
+(click title for more)
+<!--more-->
+
 You can have the course hosted at the [MAA site ](http://webwork.maa.org).
 
 You will still need to manage the course yourself. 

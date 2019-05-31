@@ -1,7 +1,6 @@
 ---
-title: "WW features"
+title: "Features"
 date: 2019-05-28T11:35:11-04:00
-featured_image: ''
 draft: false
 description: "These  WeBWorK courses provide examples for question authors illustrating the variety of questions that can be asked in WeBWorK. "
 ---

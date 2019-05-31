@@ -6,6 +6,8 @@ draft: false
 
 These courses were used as demonstrations for various WeBWorK workshops 
 offered at University of Rochester
+
+(click title for more)
 <!--more-->
 
 Read only - use guest login

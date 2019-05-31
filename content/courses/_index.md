@@ -1,6 +1,5 @@
 ---
 title: "Courses"
-featured_image: ''
 description: "Demonstration versions of WeBWorK courses currently being used for mathematics instruction"
 ---
 

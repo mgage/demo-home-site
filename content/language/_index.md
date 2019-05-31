@@ -2,7 +2,6 @@
 title: "Language"
 date: 2019-05-29T07:42:01-04:00
 draft: false
-featured_image: ''
 description: "Demo WeBWorK courses in each language"
 ---
 

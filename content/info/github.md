@@ -6,8 +6,7 @@ draft: false
 
 Our github repository is https://github.com/openwebwork.
 
-(click headline for more )
-
+(click title for more)
 <!--more-->
 
 The two webwork repos required to run webwork are [webwork2](https:/github.com/openwebwork/webwork2) and [pg](https:/github.com/openwebwork/pg).

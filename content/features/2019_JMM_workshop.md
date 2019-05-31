@@ -6,6 +6,8 @@ draft: false
 
 These sites were used at the WeBWorK workshop presented at the JMM in Baltimore in January 2019
 
+(click title for more)
+<!--more-->
 
 - [Moodle site used for 2019 JMM workshop](https://demo.webwork.rochester.edu/moodle/course/view.php?id=22)
 

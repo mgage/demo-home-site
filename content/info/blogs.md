@@ -8,3 +8,6 @@ There is a [blog accumulator](http://webwork.maa.org/planet) for WeBWorK communi
 These often present features of WeBWorK.  Much of the material is also on the wiki, but the blog posts are organized in a more conversational manner. 
 
 Of particular interests are the posts from [Goeff Goehle](http://webworkgoehle.blogspot.com/)  and from [Mike Gage](http://michaelgage.blogspot.com/)
+
+(click title for more)
+<!--more-->

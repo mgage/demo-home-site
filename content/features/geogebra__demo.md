@@ -4,7 +4,13 @@ date: 2019-05-29T13:01:17-04:00
 draft: false 
 ---
 
-A nascent collection of problems using geogebra:
+
+Some geogebra problems from [Stephen Featherstonhaugh, BMCC](https://demo.webwork.rochester.edu/webwork2/2019_JMM_Baltimore/StephenF/)
+
+(click title for more)
+<!--more-->
+
+A nascent collection of new problems using geogebra:
 
 [geogebra examples](http://demo.webwork.rochester.edu/webwork2/geogebra_examples/)
 

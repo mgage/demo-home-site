@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: " About"
 description: "WeBWorK is a well-tested homework system for delivering individualized problems over the web."
 featured_image: ''
 ---

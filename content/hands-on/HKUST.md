@@ -6,6 +6,7 @@ draft: false
 
 These courses were used as demonstration for a WeBWorK workshop offered at Hong Kong University of Science and Technology in 2014. [HKUST workshop announcement](http://www.math.ust.hk/~support/index2.html)
 
+(click title for more)
 <!--more-->
 
 Read only - use guest login

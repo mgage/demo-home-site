@@ -6,4 +6,7 @@ draft: true
 
 These examples simply show off the three rotations available with some graphs.
 
+(click title for more)
+<!--more-->
+
 [Test live graph examples](http://demo.webwork.rochester.edu/webwork2/liveGraph_test/)
