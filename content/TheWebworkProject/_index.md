@@ -1,7 +1,7 @@
 ---
 title: "TheWebworkProject"
 date: 2019-05-29T16:57:45-04:00
-description:"The webwork software is supported by a large volunteer community which contributes new questions, responds to help requests on the forum and evangelizes WeBWorK at conferences and university settings."
+description: "The webwork software is supported by a large volunteer community which contributes new questions, responds to help requests on the forum and evangelizes WeBWorK at conferences and university settings."
 draft: False
 ---
 
