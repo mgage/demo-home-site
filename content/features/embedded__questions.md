@@ -8,6 +8,7 @@ draft: false
 
 These are 'live' webwork problems selected from  homework for the standard second semester calculus course (MTH162) which reviews the fundamental theorem of calculus and then begins with integration techniques. I use this html page in the first day lecture to illustrate the topics that we will cover. 
 
+(click title for more)
 <!--more-->
 
 <script type="text/javascript"

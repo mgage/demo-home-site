@@ -1,7 +1,7 @@
 ---
 title: "Forum"
 date: 2019-05-29T12:20:04-04:00
-draft: true
+draft:false 
 ---
 
 WeBWorK has  very active forums:
@@ -10,3 +10,4 @@ on the [wiki](webwork.maa.org/wiki).   You need to register on the wiki first (j
 
 (click title for more)
 <!--more-->
+
