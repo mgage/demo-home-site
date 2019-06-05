@@ -12,15 +12,24 @@ At the University of Rochester there are two standard tracks (MTH140 series and 
 
 The MTH161, MTH162 series covers traditional differential and integral calculus in two semesters.  This is the standard course taken by engineers and many mathematics and physics students.
 
+- [MTH161 Spring 2016](https://demo.webwork.rochester.edu/webwork2/spring16mth161/) -- can view as guest
 - [MTH162 Spring 2016](https://demo.webwork.rochester.edu/webwork2/spring16mth162demo/) -- can view as guest
-- Set definition files will be available on `github.com/webworkcourses`
 
 
 
 The MTH141, MTH142, MTH143 series covers traditional differential and integral calculus in three semesters.  It covers essentially the same material as the MTH160 series but at a slower pace.  It is taken by those less confident about their mathematics preparation or who require less mathematics background for their major. 
 
-- [MTH141](https://demo.webwork.rochester.edu/webwork2/game_calc141/)
+- [MTH141 Spring 2016](https://demo.webwork.rochester.edu/webwork2/spring16mth141/) -- can view as guest
+- [MTH142 Spring 2016](https://demo.webwork.rochester.edu/webwork2/spring16mth142/) -- can view as guest
+- [MTH143 Spring 2016](https://demo.webwork.rochester.edu/webwork2/spring16mth143/) -- can view as guest
+
+
+
+
+
+
 - Set definition files will be available on `github.com/webworkcourses`
+
 
 
 
