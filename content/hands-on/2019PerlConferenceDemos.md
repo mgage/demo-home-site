@@ -1,7 +1,7 @@
 ---
 title: "2019PerlConferenceDemos"
 date: 2019-06-07T09:10:38-04:00
-draft: true
+draft: false
 ---
 
 Demo for Perl Conference of WeBWorK features.
