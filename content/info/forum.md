@@ -11,3 +11,6 @@ on the [wiki](webwork.maa.org/wiki).   You need to register on the wiki first (j
 (click title for more)
 <!--more-->
 
+The forums have settings which will send alert
+you via email to new postings if you endable the feature.  i
+Keep in touch with the WeBWorK community!

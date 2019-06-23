@@ -1,10 +1,11 @@
 ---
-title: "Linear_optimizaton_fall17"
+title: "Linear optimization Fall17"
 date: 2019-05-29T12:11:23-04:00
 draft: false
 ---
 
-This course Linear Optimization or Operations Research introduces the simplex method.  This version was taught in Fall 2017.
+This course Linear Optimization or Operations Research introduces the simplex method.  
+This version was taught in Fall 2017.
 
 (click title for more)
 <!--more-->

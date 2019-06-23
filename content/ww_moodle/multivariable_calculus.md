@@ -1,5 +1,5 @@
 ---
-title: "Multivariable_calculus"
+title: "Multivariable calculus, Spring 2017"
 date: 2019-05-29T12:56:23-04:00
 draft: false
 ---
@@ -15,5 +15,5 @@ At the University of Rochester the course MTH164 usually uses the last part of S
 - [MTH164 Spring 2017 ](https://demo.webwork.rochester.edu/webwork2/spring17mth164)
 - Set definition files will be available on `github.com/webworkcourses`
 
-The moodle version for MTH164 which uses the same homework set is available here:
+The *moodle version* for MTH164 which uses the same homework set is available here:
 [moodle MTH164 2017](https://demo.webwork.rochester.edu/moodle/course/view.php?id=3)

@@ -3,8 +3,7 @@ title: "Embedded questions"
 date: 2019-05-30T13:54:15-04:00
 draft: false
 ---
-
-## Initial remarks
+Examples of WeBWorK homework problems embedded in an ordinary web page using iframes. 
 
 These are 'live' webwork problems selected from  homework for the standard second semester calculus course (MTH162) which reviews the fundamental theorem of calculus and then begins with integration techniques. I use this html page in the first day lecture to illustrate the topics that we will cover. 
 
@@ -30,9 +29,7 @@ These are 'live' webwork problems selected from  homework for the standard secon
 </script>
 
 
-## Initial remarks
 
-These are 'live' webwork problems selected from the homework in the standard second semester calculus course (MTH162) which reviews the fundamental theorem of calculus and then begins with integration techniques. I use this html page in the first day lecture to illustrate the topics that we will cover. 
 
 At the end is a snippet of code which shows you how these problems are each embedded into an iframe.  You need only have access to a webwork server (for demonstration purposes you can use http://demo.webwork.rochester.edu/webwork2) but don't depend on it for production use. The other information you need is the path to the library problem which you can deduce from comparing the OpenProblemLibrary directory at https://github.com/openwebwork/webwork-open-problem-library with the examples below.
 
