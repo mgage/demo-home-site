@@ -1,7 +1,7 @@
 ---
 title: "Live graphs"
 date: 2019-05-29T13:14:50-04:00
-draft: true
+draft: false
 ---
 
 These examples simply show off the three rotations available with some graphs.
