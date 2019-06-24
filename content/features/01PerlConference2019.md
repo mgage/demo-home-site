@@ -6,4 +6,4 @@ draft: false
 
 * Slides from a presentation by Mike Gage to the 20th Perl Conference in 2019 in Pittsburgh.
 
-[WeBWorK - A Perl success story](https://demo.webwork.rochester.edu/mgage/WeBWorK - A Perl success story.pdf)
+[WeBWorK - A Perl success story](https://demo.webwork.rochester.edu/gage/2019_Perl_conference/WeBWorK - A Perl success story.pdf)
