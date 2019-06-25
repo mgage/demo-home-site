@@ -1,11 +1,11 @@
 ---
-title: "Webwork sites"
+title: "Institutions using WeBWorK"
 date: 2019-05-29T17:02:08-04:00
 draft: false
 ---
 
 A [map](http://webwork.maa.org/wiki/WeBWorK_Sites) 
-of the known WeBWorK sites.
+of the known institutions using WeBWorK.
 
 http://webwork.maa.org/wiki/WeBWorK_Sites
 
