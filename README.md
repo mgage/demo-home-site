@@ -25,6 +25,6 @@ To download and run this on your own computer use the following steps (loosely t
 		- git rm ananke 
 		- git submodule add https://github.com/budparr/gohugo-theme-ananke.git ananke
 	- Now cd to the top level demo-home-site and try hugo server -D again. (view in browser at localhost:1313/public )
-			- (see https://gohugo.io/getting-started/quick-start/ installing ananke theme)
+	- (see https://gohugo.io/getting-started/quick-start/ installing ananke theme)
 
 Please add to or modify the instructions so that they are more helpful. You can submit pull requests.
