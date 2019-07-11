@@ -16,7 +16,7 @@ To download and run this on your own computer use the following steps (loosely t
 - `git clone https://github.com/mgage/demo-home-site . `  (or clone from your own copy of the site)
 
 - cd demo-home-site 
-- hugo server -D might work (view in browser at localhost:1313/public
+- hugo server -D might work (view in browser at localhost:1313/public )
 - if not: try just.  hugo     This will try to build the permanent webpage and you may see error messages such as missing HTML layouts and so forth. That suggests the ananke theme files are missing. 
 	- in that case look at the contents of demo-home-site/themes/ananke (it might be empty which means that the submodule for ananke wasn't pulled down from github)
 	- You fix this with
@@ -24,7 +24,7 @@ To download and run this on your own computer use the following steps (loosely t
 		- rmdir ananke
 		- git rm ananke 
 		- git submodule add https://github.com/budparr/gohugo-theme-ananke.git ananke
-	- Now cd to the top level demo-home-site and try hugo server -D again.
+	- Now cd to the top level demo-home-site and try hugo server -D again. (view in browser at localhost:1313/public )
 			- (see https://gohugo.io/getting-started/quick-start/ installing ananke theme)
 
 Please add to or modify the instructions so that they are more helpful. You can submit pull requests.
