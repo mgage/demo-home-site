@@ -7,21 +7,21 @@
 - To download and run this on your own computer use the following steps 
 (loosely this works for me but there hasn't been much testing yet)
 
-
-- Optional: (If you have a git hub account you should fork the demo-home-site to your github account and then clone to your desktop from your own copy of the repos.  That will make it easy to submit pull request changes. If you don't have a github account and don't want to create one you can skip this step.)
-
 - install hugo ( on a mac I used homebrew) -- there is lots of good webdocumentation https://gohugo.io/getting-started/quick-start/
 	- brew install hugo
-- if you don't already have a github repository go to https://github.com  and create one.
-	- it takes less than 5 minutes.  It will ask for an email address and you choose a name for
-	  your github site (my name "mgage")
-- sign in to your new github site (your name or picture will appear in the upper right corner if you are
-      signed in.)
-- go to `https://github.com/mgage` and click the tab "repositories" and then on "demo-home-site"
-- in the upper right corner you will see "fork", click on that to make a copy of demo-home-site on
-     your own github account. 
+- Optional: (If you have a git hub account you should fork the demo-home-site to your github account and then clone to your desktop from your own copy of the repos.  That will make it easy to submit pull request changes. If you don't have a github account and don't want to create one you can skip this step.)
+
+	- if you don't already have a github repository go to https://github.com  and create one.
+		- it takes less than 5 minutes.  It will ask for an email address and you choose a name for
+		  your github site (my name "mgage")
+	- sign in to your new github site (your name or picture will appear in the upper right corner if you are
+		  signed in.)
+	- go to `https://github.com/mgage` and click the tab "repositories" and then on "demo-home-site"
+	- in the upper right corner you will see "fork", click on that to make a copy of demo-home-site on
+		 your own github account. 
 - cd to a directory that will enclose the directory demo-home-site you are about to create and type
-- `git clone https://github.com/YOUR_GITHUB_NAME/demo-home-site .`
+- `git clone https://github.com/YOUR_GITHUB_NAME/demo-home-site .` 
+                (if you didn't create your own github account use `mgage` for YOUR_GITHUB_NAME )
 - cd demo-home-site 
 - type `hugo server -D` might work 
 	then view in browser at `localhost:1313/public`
