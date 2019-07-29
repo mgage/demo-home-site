@@ -8,9 +8,10 @@
 (loosely this works for me but there hasn't been much testing yet)
 
 
+- Optional: (If you have a git hub account you should fork the demo-home-site to your github account and then clone to your desktop from your own copy of the repos.  That will make it easy to submit pull request changes. If you don't have a github account and don't want to create one you can skip this step.)
+
 - install hugo ( on a mac I used homebrew) -- there is lots of good webdocumentation https://gohugo.io/getting-started/quick-start/
 	- brew install hugo
-
 - if you don't already have a github repository go to https://github.com  and create one.
 	- it takes less than 5 minutes.  It will ask for an email address and you choose a name for
 	  your github site (my name "mgage")
