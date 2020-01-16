@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>WeBWorK Online Math Homework Demo Site </title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.62.2" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/public/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+    
+
+    
+      <link href="https://demo.webwork.rochester.edu/public/index.xml" rel="alternate" type="application/rss+xml" title="WeBWorK Online Math Homework Demo Site" />
+      <link href="https://demo.webwork.rochester.edu/public/index.xml" rel="feed" type="application/rss+xml" title="WeBWorK Online Math Homework Demo Site" />
+    
+
+    <meta property="og:title" content="WeBWorK Online Math Homework Demo Site" />
+<meta property="og:description" content="Ask the questions you should not just the questions you can" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://demo.webwork.rochester.edu/public/" />
+<meta property="og:updated_time" content="2020-01-13T16:49:57-05:00" />
+<meta itemprop="name" content="WeBWorK Online Math Homework Demo Site">
+<meta itemprop="description" content="Ask the questions you should not just the questions you can"><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="WeBWorK Online Math Homework Demo Site"/>
+<meta name="twitter:description" content="Ask the questions you should not just the questions you can"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://demo.webwork.rochester.edu/public/images/maple_tree.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://demo.webwork.rochester.edu/public" class="f3 fw2 hover-white no-underline white-90 dib">
+      WeBWorK Online Math Homework Demo Site
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/public/about/" title=" About page">
+               About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/public/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/public/courses/" title="Courses page">
+              Courses
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/public/features/" title="Features page">
+              Features
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/public/hands-on/" title="Hands-on page">
+              Hands-on
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/public/info/" title="Info page">
+              Info
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/public/labs/" title="Labs page">
+              Labs
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/public/language/" title="Language page">
+              Language
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/public/ww_moodle/" title="Moodle page">
+              Moodle
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/public/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/public/thewebworkproject/" title="TheWebworkProject page">
+              TheWebworkProject
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/public/tutorials/" title="Tutorials page">
+              Tutorials
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+<a href="https://github.com/openwebwork" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
+          WeBWorK Online Math Homework Demo Site
+        </h1>
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+    
+  </article>
+  
+  
+  
+  
+  
+  
+  
+    
+    
+
+
+     
+	<div class="pa3 pa4-ns">
+	<ul class="list">
+					
+					    <li class="fl h3 bg-green ma1-ns ">
+						<a class="link dim black f4 f8-ns dib mr3 mv3" href=/public/about/  >
+							 About
+                        </li>
+					
+					    <li class="fl h3 bg-green ma1-ns ">
+						<a class="link dim black f4 f8-ns dib mr3 mv3" href=/public/contact/  >
+							Contact
+                        </li>
+					
+					    <li class="fl h3 bg-green ma1-ns ">
+						<a class="link dim black f4 f8-ns dib mr3 mv3" href=/public/courses/  >
+							Courses
+                        </li>
+					
+					    <li class="fl h3 bg-green ma1-ns ">
+						<a class="link dim black f4 f8-ns dib mr3 mv3" href=/public/features/  >
+							Features
+                        </li>
+					
+					    <li class="fl h3 bg-green ma1-ns ">
+						<a class="link dim black f4 f8-ns dib mr3 mv3" href=/public/hands-on/  >
+							Hands-on
+                        </li>
+					
+					    <li class="fl h3 bg-green ma1-ns ">
+						<a class="link dim black f4 f8-ns dib mr3 mv3" href=/public/info/  >
+							Info
+                        </li>
+					
+					    <li class="fl h3 bg-green ma1-ns ">
+						<a class="link dim black f4 f8-ns dib mr3 mv3" href=/public/labs/  >
+							Labs
+                        </li>
+					
+					    <li class="fl h3 bg-green ma1-ns ">
+						<a class="link dim black f4 f8-ns dib mr3 mv3" href=/public/language/  >
+							Language
+                        </li>
+					
+					    <li class="fl h3 bg-green ma1-ns ">
+						<a class="link dim black f4 f8-ns dib mr3 mv3" href=/public/ww_moodle/  >
+							Moodle
+                        </li>
+					
+					    <li class="fl h3 bg-green ma1-ns ">
+						<a class="link dim black f4 f8-ns dib mr3 mv3" href=/public/posts/  >
+							Posts
+                        </li>
+					
+					    <li class="fl h3 bg-green ma1-ns ">
+						<a class="link dim black f4 f8-ns dib mr3 mv3" href=/public/thewebworkproject/  >
+							TheWebworkProject
+                        </li>
+					
+					    <li class="fl h3 bg-green ma1-ns ">
+						<a class="link dim black f4 f8-ns dib mr3 mv3" href=/public/tutorials/  >
+							Tutorials
+                        </li>
+					
+    </ul>
+	</div>
+
+
+<div  class="relative w-100 mb4" >
+<center>
+<h3 >WeBWorK homework improves learning</h3>
+</center>
+<ul>
+<li>By providing students with immediate feedback as to the correctness of their answers, students can be encouraged to make multiple attempts until they succeed. With individualized problem sets, students can work together but will have to enter their own work to receive credit.
+</li>
+<li>The instructors are provided with real-time statistics, resulting in lesson plans that can be customized to better serve students.
+</li>
+</ul>
+</div>
+
+<div>
+    <div class="pa3 pa4-ns w-100 w-70-ns center">
+      
+       
+          <h1 class="flex-none">
+            Features
+          </h1>
+        
+
+      
+
+      <section class="w-100 mw8">
+        
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/public/features/2020_jmm_conference/" class="color-inherit dim link">
+            2020_JMM_conference
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <p>Links to the slides and examples for the talk
+&ldquo;Embedding WeBWorK problems anywhere&rdquo; given
+at the Joint Mathematics Meetings in Denver in 2020.</p>
+<p>(click title for more)</p>
+        </div>
+          <a href="/public/features/2020_jmm_conference/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/public/features/2019_ur_faculty_summit/" class="color-inherit dim link">
+            2019_UR_faculty_summit
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <p>This poster and the connected course were created to demonstrate WeBWorK for the faculty summit session &ldquo;Teaching and Learning with Technology&rdquo; held on October 30, 2019 at the University of Rochester.</p>
+<p>(click title for more)</p>
+        </div>
+          <a href="/public/features/2019_ur_faculty_summit/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/public/features/02perlconference2019/" class="color-inherit dim link">
+            PerlConference2019
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+            Slides from a presentation by Mike Gage to the 20th Perl Conference in 2019 in Pittsburgh. [WeBWorK - A Perl success story](https://demo.webwork.rochester.edu/gage/2019_Perl_conference/WeBWorK - A Perl success story.pdf)
+  YouTube recording of the presentation by Mike Gage (June 17, 2019)
+  
+        </div>
+          <a href="/public/features/02perlconference2019/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/public/features/05embedded_questions/" class="color-inherit dim link">
+            Embedded questions
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <p>Examples of WeBWorK homework problems embedded in an ordinary web page using iframes.</p>
+<p>These are &lsquo;live&rsquo; webwork problems selected from  homework for the standard second semester calculus course (MTH162) which reviews the fundamental theorem of calculus and then begins with integration techniques. I use this html page in the first day lecture to illustrate the topics that we will cover.</p>
+<p>(click title for more)</p>
+        </div>
+          <a href="/public/features/05embedded_questions/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/public/features/08live_graphs/" class="color-inherit dim link">
+            Live graphs
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <p>These examples simply show off the three rotations available with some graphs.</p>
+<p>(click title for more)</p>
+        </div>
+          <a href="/public/features/08live_graphs/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/public/features/06_2019_jmm_workshop/" class="color-inherit dim link">
+            2019 JMM workshop
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <p>These sites were used at the WeBWorK workshop presented at the JMM in Baltimore in January 2019</p>
+<p>(click title for more)</p>
+        </div>
+          <a href="/public/features/06_2019_jmm_workshop/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/public/features/07geogebra_demo/" class="color-inherit dim link">
+            Geogebra demo
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <p>Some geogebra problems from <a href="https://demo.webwork.rochester.edu/webwork2/2019_JMM_Baltimore/StephenF/">Stephen Featherstonhaugh, BMCC</a></p>
+<p>(click title for more)</p>
+        </div>
+          <a href="/public/features/07geogebra_demo/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+      </section>
+
+      
+      <section class="w-100">
+        <h1 class="f3">More</h1>
+        
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/public/features/03bmcc_demo/" class="link black dim">
+              BMCC demo
+            </a>
+          </h2>
+        
+
+        
+        
+          <a href="/public/features/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Features</a>
+        
+        </section>
+      
+
+      </div>
+  
+
+    </main>
+    <footer class="bg-dark-green bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://demo.webwork.rochester.edu/public" >
+    &copy; 2020 WeBWorK Online Math Homework Demo Site
+  </a>
+    <div>
+
+
+
+
+
+
+
+<a href="https://github.com/openwebwork" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/public/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
