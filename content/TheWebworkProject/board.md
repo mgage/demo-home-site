@@ -1,10 +1,10 @@
 ---
-title* "Board"
-date* 2019-05-31T18*15*35-04*00
-draft* false
+title: "The Webwork Project"
+date: 2019-05-31T18:15:35-04:00
+draft: false
 ---
-# The Webwork Project
-## 2020 TWP Board consists of 
+
+2020 TWP Board consists of 
 
 (click title for more)
 <!--more-->
