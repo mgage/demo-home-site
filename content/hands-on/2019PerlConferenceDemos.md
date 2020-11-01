@@ -1,5 +1,5 @@
 ---
-title: "2019PerlConferenceDemos"
+title: "2019PerlConferenceDemos and more 'hands-on' demos "
 date: 2019-06-07T09:10:38-04:00
 draft: false
 ---
@@ -20,7 +20,7 @@ hands-on demonstration courses below.
 Use profa for login and profa for password.
 profb/profb  also works.
 
-* [2019PerlConference101](https://demo.webwork.rochester.edu/webwork2/2019PerlConference102/)
+* [2019PerlConference101](https://demo.webwork.rochester.edu/webwork2/2019PerlConference101/)
 * [2019PerlConference102](https://demo.webwork.rochester.edu/webwork2/2019PerlConference102/)
 * [2019PerlConference103](https://demo.webwork.rochester.edu/webwork2/2019PerlConference103/)
 * [2019PerlConference104](https://demo.webwork.rochester.edu/webwork2/2019PerlConference104/)
@@ -40,3 +40,10 @@ profb/profb  also works.
 The lesson on long division of polynomials lesson of this course (see above) demonstrates both the use of "scaffolded" problems 
 and the use of "niceTables" for layout.  More moodle/webwork courses are in the "ww_moodle" section of this website. 
 
+### Other resources from the 2019 Perl conference
+
+* Slides from a presentation by Mike Gage to the 20th Perl Conference in 2019 in Pittsburgh.
+[WeBWorK-A Perl success story](https://demo.webwork.rochester.edu/gage/2019_Perl_conference/WeBWorK%20-%20A%20Perl%20success%20story.pdf)
+ 
+* [YouTube recording](https://www.youtube.com/watch?v=tlC4FIPuZwQ)
+ of the presentation by Mike Gage (June 17, 2019)

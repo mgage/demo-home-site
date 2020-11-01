@@ -1,5 +1,6 @@
 ---
 title: "Blogs"
+weight: 5
 date: 2019-05-29T12:33:42-04:00
 draft: false
 ---

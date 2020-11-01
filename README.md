@@ -23,7 +23,7 @@
 - `git clone https://github.com/YOUR_GITHUB_NAME/demo-home-site .` 
                 (if you didn't create your own github account use `mgage` for YOUR_GITHUB_NAME )
 - cd demo-home-site 
-- type `hugo server -D` might work 
+- type `hugo server -D` should work 
 	then view in browser at `localhost:1313/public`
 - if not: try just.  hugo     This will try to build the permanent webpage and you may see error messages such as missing HTML layouts and so forth. That suggests the ananke theme files are missing. 
 	- in that case look at the contents of demo-home-site/themes/ananke (it might be empty which means that the submodule for ananke wasn't pulled down from github)
